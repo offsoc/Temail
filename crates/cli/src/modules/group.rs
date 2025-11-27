@@ -47,7 +47,7 @@ impl GroupCommands {
                         )
                         .await;
                 }
-                eprintln!("Successfully created group {name:?} with id {account_id}.");
+                eprintln!("Successfully created group {name:?}.");
             }
             GroupCommands::Update {
                 name,
