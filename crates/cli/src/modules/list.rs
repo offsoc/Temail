@@ -47,7 +47,7 @@ impl ListCommands {
                         )
                         .await;
                 }
-                eprintln!("Successfully created mailing list {name:?} with id {account_id}.");
+                eprintln!("Successfully created mailing list {name:?}.");
             }
             ListCommands::Update {
                 name,

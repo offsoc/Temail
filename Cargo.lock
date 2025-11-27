@@ -2036,9 +2036,9 @@ dependencies = [
 
 [[package]]
 name = "dns-update"
-version = "0.1.5"
+version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "42788b21a1231c646c46508c406db9bf628342a781c24888bf60e1a29396deb2"
+checksum = "8fb12339544bc327ee50abbb4f522e3367216f5ccf6240c01ca4018d17a88ea2"
 dependencies = [
  "hickory-client",
  "reqwest 0.12.24",
