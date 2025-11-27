@@ -46,7 +46,7 @@ impl AccountCommands {
                 let account_id = client
                     .http_request::<u32, _>(Method::POST, "/api/principal", Some(principal))
                     .await;
-                eprintln!("Successfully created account {name:?} with id {account_id}.");
+                eprintln!("Successfully created account {name:?}.");
             }
             AccountCommands::Update {
                 name,
