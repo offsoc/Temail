@@ -226,11 +226,11 @@ pub async fn name_to_id(client: &Client, name: &str) -> String {
     match response.ids().len() {
         1 => response.take_ids().pop().unwrap(),
         0 => {
-            eprintln!("Error: No principal found with name '{}'.", name);
+            eprintln!("Error: No principal found with the specified name.");
             std::process::exit(1);
         }
         _ => {
-            eprintln!("Error: Multiple principals found with name '{}'.", name);
+            eprintln!("Error: Multiple principals found with the specified name.");
             std::process::exit(1);
         }
     }
